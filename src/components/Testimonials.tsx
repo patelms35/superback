@@ -136,7 +136,7 @@ const Testimonials: React.FC = () => {
           ))}
         </div>
         
-        <div className="flex justify-center mt-10 space-x-4">
+        <div className="flex justify-between content-center mt-10 space-x-4">
           <button 
             onClick={handlePrevPage}
             className="bg-white text-primary hover:bg-primary hover:text-white border border-primary rounded-full h-10 w-10 flex items-center justify-center transition duration-300"
