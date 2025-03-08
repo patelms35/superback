@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin, FaEnvelope, FaPhone, FaMapMarkerAlt, FaFigma } from 'react-icons/fa';
 
 // Payment methods image URL
 const paymentMethodsImageUrl = 'https://www.pngitem.com/pimgs/m/4-46283_payment-methods-icons-png-transparent-png.png';
@@ -18,17 +18,17 @@ const Footer: React.FC = () => {
               The smart way to earn cashback on all your online purchases. Shop at your favorite stores and save money.
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" className="text-gray-400 hover:text-primary transition duration-300">
+              <a href="https://www.facebook.com/patel.mark.52" className="text-gray-400 hover:text-primary transition duration-300">
                 {FaFacebook({ size: 20 })}
               </a>
-              <a href="https://twitter.com" className="text-gray-400 hover:text-primary transition duration-300">
-                {FaTwitter({ size: 20 })}
-              </a>
-              <a href="https://instagram.com" className="text-gray-400 hover:text-primary transition duration-300">
+              <a href="https://instagram.com/patel_mark_7262?igshid=YmMyMTA2M2Y=" className="text-gray-400 hover:text-primary transition duration-300">
                 {FaInstagram({ size: 20 })}
               </a>
-              <a href="https://linkedin.com" className="text-gray-400 hover:text-primary transition duration-300">
+              <a href="https://www.linkedin.com/in/patelmark6172" className="text-gray-400 hover:text-primary transition duration-300">
                 {FaLinkedin({ size: 20 })}
+              </a>
+              <a href="https://www.figma.com/@patelmark" className="text-gray-400 hover:text-primary transition duration-300">
+                {FaFigma({ size: 20 })}
               </a>
             </div>
           </div>
