@@ -1,0 +1,187 @@
+.product-posting-page {
+  padding: 60px 0;
+  background-color: var(--background-light);
+}
+
+.step.completed .step-number {
+  background-color: var(--success-color);
+  border-color: var(--success-color);
+  color: white;
+}
+
+.product-posting-form-container {
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.estimated-price-summary {
+  background-color: rgba(67, 97, 238, 0.1);
+  padding: 15px 20px;
+  border-radius: var(--border-radius);
+  margin-bottom: 30px;
+}
+
+.estimated-price-summary h3 {
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+.estimated-price-summary p {
+  margin: 0;
+  color: var(--text-light);
+}
+
+.form-section {
+  margin-bottom: 40px;
+}
+
+.section-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  color: var(--secondary-color);
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.upload-container {
+  margin-top: 10px;
+}
+
+.file-input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.upload-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background-color: #f8f9fa;
+  border: 2px dashed #ddd;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.upload-button:hover {
+  background-color: #f1f3f5;
+  border-color: var(--primary-color);
+}
+
+.upload-button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.upload-icon {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.upload-hint {
+  margin-top: 8px;
+  font-size: 14px;
+  color: var(--text-light);
+}
+
+.upload-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.preview-item {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.preview-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.remove-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 24px;
+  height: 24px;
+  background-color: rgba(244, 67, 54, 0.8);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-preview, .bill-preview {
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+.video-preview video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.bill-preview img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.pdf-preview {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  text-align: center;
+  color: var(--text-light);
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    flex-direction: column;
+    gap: 0;
+  }
+  
+  .preview-item {
+    width: 80px;
+    height: 80px;
+  }
+}
